@@ -1,0 +1,22 @@
+{
+  "name": "vandalian-tools-auth",
+  "version": "1.0.0",
+  "description": "Authorisation Service required for all Vandalian Tools Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauPuigsubira/AuthService.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "Pau Puigsubira",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PauPuigsubira/AuthService/issues"
+  },
+  "homepage": "https://github.com/PauPuigsubira/AuthService#readme"
+}
