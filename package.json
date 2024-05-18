@@ -4,7 +4,8 @@
   "description": "Authorisation Service required for all Vandalian Tools Components",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "dev": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1 || dev"
   },
   "repository": {
     "type": "git",
@@ -14,9 +15,22 @@
     "auth"
   ],
   "author": "Pau Puigsubira",
+  "contact": "p.puigsubira.berenguer@gmail.com",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/PauPuigsubira/AuthService/issues"
   },
-  "homepage": "https://github.com/PauPuigsubira/AuthService#readme"
+  "homepage": "https://github.com/PauPuigsubira/AuthService#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
 }
